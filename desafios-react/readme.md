@@ -1,0 +1,1 @@
+Essa pasta contém os desafios de cada dia.
