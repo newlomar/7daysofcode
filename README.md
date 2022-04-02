@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+Olá,
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Na semana passada eu prometi trazer um projeto novo da Alura. Ele está aqui. Também tenho uma pergunta especial para você no final do e-mail.
 
-## Available Scripts
+O projeto é o 7 Days of Code.
 
-In the project directory, you can run:
+O que significa?
 
-### `npm start`
+São 7 exercícios práticos, enviados por e-mail, com as seguintes características:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Dificuldade crescente de desafios;
+- Feedback da comunidade;
+- O hábito de praticar.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Como funciona?
 
-### `npm test`
+1. Você entra no site do 7 Days Of Code;
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Escolhe uma das trilhas. São 4 hoje (Java, React, HTML/CSS e lógica com JavaScript). Cada uma foi criada por um expert diferente (veja lá quem fez o de Java 💡);
 
-### `npm run build`
+3. Recebe um e-mail de instruções ainda hoje. De como colocar no GitHub. Como pedir ajuda via GitHub. Como usar no seu portfólio;
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. Recebe o primeiro dos 7 desafios amanhã. Chega um a cada dia, bem cedinho.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Temos literalmente uma dezena de outras trilhas sendo projetadas neste instante. Tudo de graça.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+É um projeto para você dar um primeiro mergulho no hábito de praticar com intenção. Com intenção de ser melhor profissional. Não apenas apagar incêndios. Não só copiar e colar do StackOverflow ou do tutorial.
 
-### `npm run eject`
+Espero que goste, que se desafie, que chame seus amigos e amigas para participarem.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+E agora a pergunta: qual outra tecnologia você quer praticar mais? Com objetivo de ser melhor.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Desejo a você 7 mergulhos cada vez mais profundos.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Paulo Silveira
+CEO Alura
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+P.S. O projeto está em beta! todo feedback é mais que bem vindo!
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+P.S. 2 Em alguns poucos meses tudo isso vai se conectar com outro projeto, o Vitrine Dev. Uma forma de você mostrar seu portfólio, aprendizado e sua prática intencional.
