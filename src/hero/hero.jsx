@@ -1,4 +1,3 @@
-import "./hero.css";
 import image from "./imagem-hero1.svg";
 
 function Hero() {
