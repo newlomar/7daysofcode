@@ -17,6 +17,10 @@
   align-items: flex-start;
 }
 
+.hero-paragraph {
+  font-size: 22px;
+}
+
 .heading1 {
   font-family: "Elsie Swash Caps", cursive;
   font-size: 82px;
