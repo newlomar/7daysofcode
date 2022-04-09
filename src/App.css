@@ -1,15 +1,15 @@
-ul {
+.menu-ul {
   display: flex;
   margin: 0;
   gap: 10px;
 }
 
-li {
+.menu-li {
   list-style-type: none;
   color: #202020;
 }
 
-section {
+.hero-container {
   max-width: 1100px;
   width: 70%;
   margin: 0 auto;
@@ -17,17 +17,17 @@ section {
   align-items: flex-start;
 }
 
-h1 {
+.heading1 {
   font-family: "Elsie Swash Caps", cursive;
   font-size: 82px;
   margin: 0;
 }
 
-label {
+.letter-label {
   position: relative;
 }
 
-label:before {
+.letter-label:before {
   content: "";
   position: absolute;
   left: 10px;
@@ -37,14 +37,14 @@ label:before {
   background: url("./mail.svg") center / contain no-repeat;
 }
 
-input[type="text"] {
+.email-input {
   font-family: "Montserrat";
   border: none;
   padding: 20px 68px 20px 40px;
   box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
 }
 
-button {
+.cta {
   font-family: "Montserrat";
   color: white;
   background-color: #ffcb47;
@@ -78,12 +78,12 @@ button {
   background-size: 100%;
 }
 
-.text-div {
+.hero-text-div {
   padding-top: 100px;
   width: 70%;
 }
 
-.plant {
+.hero-plant {
   width: 100%;
   position: relative;
   left: -80px;
@@ -94,4 +94,59 @@ button {
   text-align: justify;
   width: 90%;
   margin-right: 0px;
+}
+
+.central-container {
+  width: 60%;
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+}
+
+.central-plant-div {
+  width: 55%;
+  height: auto;
+}
+
+.central-plant {
+  width: 100%;
+}
+
+.central-text {
+  padding: 30px 30px;
+}
+
+.central-paragraph {
+  margin: 10px 0px;
+  font-size: 22px;
+}
+
+.heading2 {
+  font-family: "Elsie Swash Caps", cursive;
+  font-size: 41px;
+  margin: 0;
+}
+
+.central-ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0;
+}
+
+.central-li {
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.yellow-circle {
+  display: inline-block;
+  width: 52px;
+  height: 52px;
+  border-radius: 100%;
+  background-color: #ffcb47;
 }
