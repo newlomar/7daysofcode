@@ -6,7 +6,7 @@ function Hero() {
       <div className="background"></div>
       <section className="hero-container">
         <div className="hero-text-div">
-          <p class="hero-paragraph">Sua casa com as</p>
+          <p className="hero-paragraph">Sua casa com as</p>
           <h1 className="heading1">melhores plantas</h1>
           <p className="larger-text">
             Encontre aqui uma vasta seleção de plantas para decorar a sua casa e

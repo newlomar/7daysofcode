@@ -7,7 +7,7 @@ function MyPlant() {
         <img src={plant} alt="plant" className="central-plant" />
       </div>
       <aside className="central-text">
-        <p class="central-paragraph">Como conseguir</p>
+        <p className="central-paragraph">Como conseguir</p>
         <h2 className="heading2">minha planta</h2>
         <ul className="central-ul">
           <li className="central-li">
