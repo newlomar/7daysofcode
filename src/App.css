@@ -154,3 +154,36 @@
   border-radius: 100%;
   background-color: #ffcb47;
 }
+
+.offers-container {
+  width: 70%;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.offers-list {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  justify-content: center;
+  gap: 20px;
+  padding: 0;
+}
+
+.card-list-item {
+  list-style-type: none;
+  display: flex;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+  width: 300px;
+}
+
+.card-image-div {
+  width: 50%;
+}
+
+.card-images {
+  width: 100%;
+}
