@@ -1,6 +1,19 @@
 import image from "./imagem-hero1.svg";
+import { useState } from "react";
 
 function Hero() {
+  const [email, setEmail] = useState("");
+
+  const handleEmailChange = (e) => {
+    setEmail(e.target.value);
+  };
+
+  const validateEmail = (email) => {
+    const regex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+
+    return regex.test(email);
+  };
+
   return (
     <>
       <div className="background"></div>
@@ -21,9 +34,13 @@ function Hero() {
                 id="email"
                 placeholder="Insira seu e-mail"
                 className="email-input"
+                value={email}
+                onChange={handleEmailChange}
               />
             </label>
-            <button className="cta">Assinar newsletter</button>
+            {validateEmail(email) && (
+              <button className="cta">Assinar newsletter</button>
+            )}
           </form>
         </div>
         <div className="image-div">

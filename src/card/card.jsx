@@ -6,8 +6,8 @@ function Card({ image, name, price }) {
       <div className="card-image-div">
         <img className="card-images" src={image} alt={`${name} plant`} />
       </div>
-      <div className="offers-text-div">
-        <p>{name}</p>
+      <div className="card-text-div">
+        <p className="card-offer-name">{name}</p>
         <p>{price}</p>
         <p>
           Comprar <img src={seta} alt="arrow" className="arrow" />
