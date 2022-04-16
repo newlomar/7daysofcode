@@ -9,11 +9,9 @@ function Hero() {
   };
 
   const validateEmail = (email) => {
-    const regex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
-
+    const regex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
     return regex.test(email);
   };
-
   return (
     <>
       <div className="background"></div>
@@ -29,7 +27,7 @@ function Hero() {
           <form>
             <label id="email" className="letter-label">
               <input
-                type="text"
+                type="email"
                 name=""
                 id="email"
                 placeholder="Insira seu e-mail"
@@ -38,9 +36,9 @@ function Hero() {
                 onChange={handleEmailChange}
               />
             </label>
-            {validateEmail(email) && (
-              <button className="cta">Assinar newsletter</button>
-            )}
+            <button className={validateEmail(email) ? "cta show" : "cta"}>
+              Assinar newsletter
+            </button>
           </form>
         </div>
         <div className="image-div">
