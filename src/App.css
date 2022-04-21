@@ -27,6 +27,11 @@
   margin: 0;
 }
 
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
 .letter-label {
   position: relative;
 }
@@ -41,11 +46,19 @@
   background: url("./mail.svg") center / contain no-repeat;
 }
 
+.name-input {
+  font-family: "Montserrat";
+  padding: 20px 150px 20px 40px;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+  border: 1px solid black;
+}
+
 .email-input {
   font-family: "Montserrat";
   border: none;
   padding: 20px 150px 20px 40px;
   box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+  border: 1px solid black;
 }
 
 .cta {
